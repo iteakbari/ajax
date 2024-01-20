@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" href="./assets/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="./assets/fonts/jco-icon/00-feather-iconly-straight-streamline/feather-iconly-straight-streamline/css/jco-icon-embedded.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-xxl px-5">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="168" height="42" viewBox="0 0 168 42"
+                            fill="none">
+                            <path
+                                d="M37.4849 33.182C37.4849 34.2319 37.4383 35.2729 37.3438 36.2983L35.4832 36.5829L33.2177 36.9321C33.2437 36.4731 33.2564 36.0116 33.2556 35.5474C33.2556 22.2954 22.804 11.5583 9.91645 11.5583C9.35956 11.5583 8.80593 11.5772 8.25991 11.6163V9.40146L6.29616 11.8372C4.1163 12.1836 1.99602 12.8494 0 13.8144L0 0.429518C1.71989 0.142594 3.45953 -0.00106434 5.20193 -5.57615e-05H5.47657V2.72467L7.5923 0.0892062C24.3053 1.34668 37.4849 15.6833 37.4849 33.182Z"
+                                fill="#EA4C36" />
+                            <path
+                                d="M29.3542 33.1821C29.3539 34.6728 29.1716 36.1576 28.8114 37.6016L22.778 38.5233C23.2475 37.1729 23.4745 35.7461 23.4478 34.3123C23.4385 33.7395 23.3881 33.1681 23.2969 32.603C22.8262 29.6413 21.2851 26.9714 18.9818 25.1273C18.9818 25.1273 18.9731 25.1195 18.9666 25.1139C18.5524 24.7839 18.1172 24.4828 17.664 24.2123C16.2245 23.4117 14.5821 23.0802 12.9549 23.2618C11.3277 23.4434 9.79282 24.1295 8.55405 25.229C7.31528 26.3286 6.43127 27.7894 6.01944 29.4176C5.60762 31.0458 5.68747 32.7643 6.24839 34.3447L15.3062 32.17C17.1158 35.5665 7.54887 35.5665 8.04063 40.7727L0 42V27.6712C0 20.9186 5.28226 15.391 11.852 15.3375H11.9909C16.5951 15.3389 21.0104 17.2194 24.2663 20.5655C27.5221 23.9116 29.3522 28.4496 29.3542 33.1821Z"
+                                fill="#002447" />
+                            <path
+                                d="M58.8049 35C58.5649 35 58.3649 34.92 58.2049 34.76C58.0449 34.5733 57.9649 34.3733 57.9649 34.16C57.9649 34.0267 57.9782 33.9067 58.0049 33.8L67.5249 8.08C67.6049 7.78667 67.7649 7.53333 68.0049 7.32C68.2449 7.10666 68.5782 7 69.0049 7H74.1249C74.5515 7 74.8849 7.10666 75.1249 7.32C75.3649 7.53333 75.5249 7.78667 75.6049 8.08L85.1249 33.8C85.1515 33.9067 85.1649 34.0267 85.1649 34.16C85.1649 34.3733 85.0849 34.5733 84.9249 34.76C84.7649 34.92 84.5649 35 84.3249 35H80.1649C79.7649 35 79.4715 34.9067 79.2849 34.72C79.0982 34.5333 78.9782 34.36 78.9249 34.2L77.2049 29.72H65.9249L64.2049 34.2C64.1515 34.36 64.0315 34.5333 63.8449 34.72C63.6582 34.9067 63.3649 35 62.9649 35H58.8049ZM67.4049 24.56H75.6849L71.5649 13.04L67.4049 24.56ZM111.414 35C111.174 35 110.974 34.92 110.814 34.76C110.654 34.5733 110.574 34.3733 110.574 34.16C110.574 34.0267 110.588 33.9067 110.614 33.8L120.134 8.08C120.214 7.78667 120.374 7.53333 120.614 7.32C120.854 7.10666 121.188 7 121.614 7H126.734C127.161 7 127.494 7.10666 127.734 7.32C127.974 7.53333 128.134 7.78667 128.214 8.08L137.734 33.8C137.761 33.9067 137.774 34.0267 137.774 34.16C137.774 34.3733 137.694 34.5733 137.534 34.76C137.374 34.92 137.174 35 136.934 35H132.774C132.374 35 132.081 34.9067 131.894 34.72C131.708 34.5333 131.588 34.36 131.534 34.2L129.814 29.72H118.534L116.814 34.2C116.761 34.36 116.641 34.5333 116.454 34.72C116.268 34.9067 115.974 35 115.574 35H111.414ZM120.014 24.56H128.294L124.174 13.04L120.014 24.56ZM138.698 35C138.458 35 138.258 34.92 138.098 34.76C137.938 34.5733 137.858 34.3733 137.858 34.16C137.858 34.08 137.872 34 137.898 33.92C137.925 33.84 137.952 33.76 137.978 33.68L146.818 20.72L138.578 8.32C138.498 8.16 138.458 8 138.458 7.84C138.458 7.62667 138.538 7.44 138.698 7.28C138.858 7.09333 139.058 7 139.298 7H144.218C144.565 7 144.832 7.09333 145.018 7.28C145.232 7.46667 145.392 7.64 145.498 7.8L150.858 15.76L156.258 7.8C156.365 7.64 156.525 7.46667 156.738 7.28C156.952 7.09333 157.232 7 157.578 7H162.258C162.472 7 162.658 7.09333 162.818 7.28C163.005 7.44 163.098 7.62667 163.098 7.84C163.098 8.02667 163.045 8.18666 162.938 8.32L154.698 20.68L163.578 33.68C163.632 33.76 163.658 33.84 163.658 33.92C163.685 34 163.698 34.08 163.698 34.16C163.698 34.3733 163.618 34.5733 163.458 34.76C163.298 34.92 163.098 35 162.858 35H157.778C157.432 35 157.152 34.9067 156.938 34.72C156.752 34.5333 156.605 34.3733 156.498 34.24L150.658 25.84L144.858 34.24C144.778 34.3733 144.632 34.5333 144.418 34.72C144.232 34.9067 143.952 35 143.578 35H138.698Z"
+                                fill="#002447" />
+                            <path
+                                d="M96.9689 35.4C95.4756 35.4 94.0623 35.2133 92.7289 34.84C91.3956 34.4667 90.2089 33.9067 89.1689 33.16C88.1289 32.3867 87.3023 31.44 86.6889 30.32C86.1023 29.2 85.7823 27.8933 85.7289 26.4C85.7289 26.16 85.8089 25.96 85.9689 25.8C86.1289 25.6133 86.3423 25.52 86.6089 25.52H91.1689C91.5156 25.52 91.7823 25.6133 91.9689 25.8C92.1823 25.9867 92.3423 26.2533 92.4489 26.6C92.5823 27.4533 92.8623 28.1467 93.2889 28.68C93.7156 29.2133 94.2489 29.6133 94.8889 29.88C95.5556 30.12 96.3023 30.24 97.1289 30.24C98.6489 30.24 99.8089 29.7467 100.609 28.76C101.436 27.7733 101.849 26.3733 101.849 24.56V12.32H88.5289C88.2623 12.32 88.0356 12.2267 87.8489 12.04C87.6623 11.8533 87.5689 11.6267 87.5689 11.36V8C87.5689 7.70667 87.6623 7.46667 87.8489 7.28C88.0356 7.09333 88.2623 7 88.5289 7H107.369C107.662 7 107.902 7.09333 108.089 7.28C108.276 7.46667 108.369 7.70667 108.369 8V24.72C108.369 27.0133 107.889 28.96 106.929 30.56C105.969 32.1333 104.636 33.3333 102.929 34.16C101.222 34.9867 99.2356 35.4 96.9689 35.4Z"
+                                fill="#EA4C36" />
+                        </svg>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse k-header-item" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-5 ps-5 me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Who we are?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Token</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Roadmap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <div class="dropdown">
+                                <button class="k-btn k-btn-white dropdown-toggle px-3" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    EN
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">IR</a></li>
+                                    <li><a class="dropdown-item" href="#">AR</a></li>
+                                    <li><a class="dropdown-item" href="#">FR</a></li>
+                                </ul>
+                            </div>
+                            <a class="k-btn k-btn-warning" href="">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container-xxl">
+        <div class="k-login">
+            <div class="col-md-10 col-lg-8 mx-auto py-5">
+                <div class="row m-0 pt-5">
+                    <div class="col-md-6 px-4">
+                        <div class="k-box mobileLogin pb-5">
+                            <h4 class="pt-3 px-4">
+                                <b>
+                                    Welcome to AJAX
+                                </b>
+                            </h4>
+                            <ul class="nav nav-pills mb-3 px-4 py-4" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-phone-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-phone" type="button" role="tab" aria-controls="pills-phone"
+                                        aria-selected="true">Mobile</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-email-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-email" type="button" role="tab"
+                                        aria-controls="pills-email" aria-selected="false">Email</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-phone" role="tabpanel"
+                                    aria-labelledby="pills-phone-tab">
+                                    <form action="" class="px-4 pb-4">
+                                        <div class="d-flex gap-1 mb-3">
+                                            <select name="" id="">
+                                                <option value="">+98</option>
+                                                <option value="">+98</option>
+                                                <option value="">+98</option>
+                                                <option value="">+98</option>
+                                            </select>
+                                            <input class="w-100" id="mobileInput" type="tel" placeholder="Phone number">
+                                        </div>
+                                        <button type="button" class="k-btn k-btn-primary w-100 nextStep">Next</button>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="pills-email" role="tabpanel"
+                                    aria-labelledby="pills-email-tab">
+                                    <form action="" class="px-4 pb-4">
+                                        <input class="w-100 mb-3" type="email" placeholder="email address">
+                                        <button type="button" class="k-btn k-btn-primary w-100 nextStep">Next</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <p class="k-fs-14 text-center">or login with:</p>
+                            <div class="px-4">
+                                <a class="k-btn k-btn-white w-100 gap-1" href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_93_45)">
+                                            <path
+                                                d="M17.8353 9.2025C17.8353 8.61 17.7828 8.0475 17.6928 7.5H9.21777V10.8825H14.0703C13.8528 11.9925 13.2153 12.93 12.2703 13.5675V15.8175H15.1653C16.8603 14.25 17.8353 11.94 17.8353 9.2025Z"
+                                                fill="#4285F4" />
+                                            <path
+                                                d="M9.21777 18C11.6478 18 13.6803 17.19 15.1653 15.8175L12.2703 13.5675C11.4603 14.1075 10.4328 14.4375 9.21777 14.4375C6.87027 14.4375 4.88277 12.855 4.17027 10.7175H1.18527V13.035C2.66277 15.975 5.70027 18 9.21777 18Z"
+                                                fill="#34A853" />
+                                            <path
+                                                d="M4.17027 10.7175C3.98277 10.1775 3.88527 9.59999 3.88527 8.99999C3.88527 8.39999 3.99027 7.8225 4.17027 7.2825V4.965H1.18527C0.570273 6.18 0.217773 7.54499 0.217773 8.99999C0.217773 10.455 0.570273 11.82 1.18527 13.035L4.17027 10.7175Z"
+                                                fill="#FBBC05" />
+                                            <path
+                                                d="M9.21777 3.5625C10.5453 3.5625 11.7303 4.02 12.6678 4.9125L15.2328 2.3475C13.6803 0.892501 11.6478 0 9.21777 0C5.70027 0 2.66277 2.025 1.18527 4.965L4.17027 7.2825C4.88277 5.145 6.87027 3.5625 9.21777 3.5625Z"
+                                                fill="#EA4335" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_93_45">
+                                                <rect width="18" height="18" fill="white"
+                                                    transform="translate(0.0265198)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Google
+                                </a>
+                            </div>
+                        </div>
+                        <div class="k-box text-center confirmBox">
+                            <h4 class="py-3">
+                                <b>
+                                    Log In
+                                </b>
+                            </h4>
+                            <p class="mt-4">Enter <span class="k-link">5</span> digits code</p>
+                            <form action="" class="px-3 mt-5 k-code-box">
+                                <div class="k-code-container mb-3">
+                                    <input type="tel" class="k-code" maxlength=1 id="p_1" />
+                                    <input type="tel" class="k-code" maxlength=1 id="p_2" />
+                                    <input type="tel" class="k-code" maxlength=1 id="p_3" />
+                                    <input type="tel" class="k-code" maxlength=1 id="p_4" />
+                                    <input type="tel" class="k-code" maxlength=1 id="p_5" />
+                                </div>
+                                <button id='submit' class="k-btn w-100">Log In</button>
+                            </form>
+                            <p class="pt-4 mb-2 k-fs-14">
+                                Sent code to <span class="k-link k-number"></span>
+                            </p>
+                            <p class="k-fs-14">
+                                Until <span class="k-link k-countdown"></span> min
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-4">
+                        <div class="k-box shadow-none">
+                            <h4 class="pt-3 text-center">
+                                <b>
+                                    Discover the future of markets
+                                </b>
+                            </h4>
+                            <p>
+                                You will use this login information to access all Lykke products and services
+                            </p>
+                            <div>
+                                <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_gonpfxdh.json"
+                                    background="transparent" style="height:250px" speed="1" loop autoplay>
+                                </lottie-player>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="k-bg-login1"></div>
+            <div class="k-bg-login2"></div> -->
+        </div>
+    </div>
+
+
+    <script src="./assets/jquery/jquery.js"></script>
+    <script src="./assets/popper/popper-v2-11-2.js"></script>
+    <script src="./assets/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="./assets/jquery/codeBox.js"></script>
+    <script src="./assets/jquery/index.js"></script>
+    <script src="./assets/jquery/lottie.js"></script>
+
+    <script>
+        $('.emailLink').on('click', function () {
+            $(this).closest('.k-box').hide();
+            $('.emailLogin').show();
+        });
+        $('.phoneLink').on('click', function () {
+            $(this).closest('.k-box').hide();
+            $('.mobileLogin').show();
+        })
+    </script>
+</body>
+
+</html>

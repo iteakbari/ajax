@@ -1,0 +1,50 @@
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+.navbar-nav {
+  margin-right: 3rem !important;
+  margin-left: auto !important;
+}
+
+.roadmap div::after {
+  left: auto !important;
+  right: 50%;
+}
+.roadmap div:nth-child(3n)::after {
+  content: url("./../img/line4.svg");
+  left: 70px !important;
+  right: auto !important;
+}
+.roadmap div:last-child::after {
+  content: none;
+}
+
+.k-faqAnswer {
+  background: url("./../img/answer2.svg") no-repeat;
+}
+
+.k-question {
+  background: url("./../img/faq3.svg") no-repeat;
+}
+
+.k-faqList li.active::before {
+  -webkit-clip-path: polygon(100% 29%, 27% 100%, 100% 100%);
+          clip-path: polygon(100% 29%, 27% 100%, 100% 100%);
+  left: auto !important;
+  right: 35%;
+}
+
+.k-introduction {
+  background-position: 100% top;
+}
+
+.k-chartInfo li {
+  padding-left: 5px;
+  padding-right: 20px;
+}
+.k-chartInfo li::before {
+  left: auto;
+  right: 0;
+}/*# sourceMappingURL=rtl-style.css.map */

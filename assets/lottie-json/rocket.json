@@ -1,0 +1,2235 @@
+	
+v	"5.7.4"
+fr	30
+ip	0
+op	90
+w	1080
+h	1080
+nm	"Rocket"
+ddd	0
+assets	[]
+layers	
+0	
+ddd	0
+ind	1
+ty	4
+nm	"Layer 2 Outlines"
+sr	1
+ks	
+o	
+a	0
+k	100
+ix	11
+r	
+a	0
+k	0
+ix	10
+p	
+a	1
+k	
+0	
+i	
+x	0.667
+y	1
+o	
+x	0.333
+y	0
+t	0
+s	
+0	539.086
+1	490.913
+2	0
+to	
+0	0
+1	-5
+2	0
+ti	
+0	0
+1	0
+2	0
+1	
+i	
+x	0.667
+y	1
+o	
+x	0.333
+y	0
+t	21
+s	
+0	539.086
+1	460.913
+2	0
+to	
+0	0
+1	0
+2	0
+ti	
+0	0
+1	-5
+2	0
+2	
+t	39.0000015885026
+s	
+0	539.086
+1	490.913
+2	0
+ix	2
+x	"var $bm_rt;\n$bm_rt = loopOut('pingpong');"
+l	2
+a	
+a	0
+k	
+0	126.431
+1	256.861
+2	0
+ix	1
+l	2
+s	
+a	0
+k	
+0	100
+1	100
+2	100
+ix	6
+l	2
+ao	0
+shapes	
+0	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 1"
+np	4
+cix	2
+bm	0
+ix	1
+mn	"ADBE Vector Group"
+hd	false
+1	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 2"
+np	4
+cix	2
+bm	0
+ix	2
+mn	"ADBE Vector Group"
+hd	false
+2	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 3"
+np	4
+cix	2
+bm	0
+ix	3
+mn	"ADBE Vector Group"
+hd	false
+3	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 4"
+np	4
+cix	2
+bm	0
+ix	4
+mn	"ADBE Vector Group"
+hd	false
+4	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 5"
+np	4
+cix	2
+bm	0
+ix	5
+mn	"ADBE Vector Group"
+hd	false
+5	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 6"
+np	4
+cix	2
+bm	0
+ix	6
+mn	"ADBE Vector Group"
+hd	false
+6	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 7"
+np	4
+cix	2
+bm	0
+ix	7
+mn	"ADBE Vector Group"
+hd	false
+7	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 8"
+np	4
+cix	2
+bm	0
+ix	8
+mn	"ADBE Vector Group"
+hd	false
+8	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 9"
+np	4
+cix	2
+bm	0
+ix	9
+mn	"ADBE Vector Group"
+hd	false
+9	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 10"
+np	4
+cix	2
+bm	0
+ix	10
+mn	"ADBE Vector Group"
+hd	false
+10	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 11"
+np	4
+cix	2
+bm	0
+ix	11
+mn	"ADBE Vector Group"
+hd	false
+11	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 12"
+np	4
+cix	2
+bm	0
+ix	12
+mn	"ADBE Vector Group"
+hd	false
+12	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 13"
+np	4
+cix	2
+bm	0
+ix	13
+mn	"ADBE Vector Group"
+hd	false
+13	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 14"
+np	4
+cix	2
+bm	0
+ix	14
+mn	"ADBE Vector Group"
+hd	false
+14	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 15"
+np	4
+cix	2
+bm	0
+ix	15
+mn	"ADBE Vector Group"
+hd	false
+15	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 16"
+np	4
+cix	2
+bm	0
+ix	16
+mn	"ADBE Vector Group"
+hd	false
+16	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 17"
+np	4
+cix	2
+bm	0
+ix	17
+mn	"ADBE Vector Group"
+hd	false
+17	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 18"
+np	4
+cix	2
+bm	0
+ix	18
+mn	"ADBE Vector Group"
+hd	false
+18	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 19"
+np	4
+cix	2
+bm	0
+ix	19
+mn	"ADBE Vector Group"
+hd	false
+ip	0
+op	900.000036657751
+st	0
+bm	0
+1	
+ddd	0
+ind	2
+ty	4
+nm	"Layer 3 Outlines"
+parent	1
+sr	1
+ks	
+o	
+a	0
+k	100
+ix	11
+r	
+a	0
+k	0
+ix	10
+p	
+a	0
+k	
+0	127.071
+1	467.425
+2	0
+ix	2
+l	2
+a	
+a	0
+k	
+0	33.238
+1	6.415
+2	0
+ix	1
+l	2
+s	
+a	1
+k	
+0	
+i	
+x	[…]
+y	[…]
+o	
+x	[…]
+y	[…]
+t	0
+s	
+0	81
+1	81
+2	100
+1	
+i	
+x	[…]
+y	[…]
+o	
+x	[…]
+y	[…]
+t	21
+s	
+0	100
+1	100
+2	100
+2	
+t	39.0000015885026
+s	
+0	81
+1	81
+2	100
+ix	6
+x	"var $bm_rt;\n$bm_rt = loopOut('pingpong');"
+l	2
+ao	0
+shapes	
+0	
+ty	"gr"
+it	
+0	
+ind	0
+ty	"sh"
+ix	1
+ks	
+a	0
+k	{…}
+ix	2
+nm	"Path 1"
+mn	"ADBE Vector Shape - Group"
+hd	false
+1	
+ty	"fl"
+c	
+a	0
+k	[…]
+ix	4
+o	
+a	0
+k	100
+ix	5
+r	1
+bm	0
+nm	"Fill 1"
+mn	"ADBE Vector Graphic - Fill"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Group 1"
+np	4
+cix	2
+bm	0
+ix	1
+mn	"ADBE Vector Group"
+hd	false
+ip	0
+op	900.000036657751
+st	0
+bm	0
+2	
+ddd	0
+ind	3
+ty	4
+nm	"Shape Layer 4"
+sr	1
+ks	
+o	
+a	0
+k	100
+ix	11
+r	
+a	0
+k	0
+ix	10
+p	
+a	0
+k	
+0	542
+1	543
+2	0
+ix	2
+l	2
+a	
+a	0
+k	
+0	0
+1	0
+2	0
+ix	1
+l	2
+s	
+a	0
+k	
+0	100
+1	100
+2	100
+ix	6
+l	2
+ao	0
+ef	
+0	
+ty	29
+nm	"Gaussian Blur"
+np	5
+mn	"ADBE Gaussian Blur 2"
+ix	1
+en	1
+ef	
+0	
+ty	0
+nm	"Blurriness"
+mn	"ADBE Gaussian Blur 2-0001"
+ix	1
+v	
+a	0
+k	30
+ix	1
+1	
+ty	7
+nm	"Blur Dimensions"
+mn	"ADBE Gaussian Blur 2-0002"
+ix	2
+v	
+a	0
+k	1
+ix	2
+2	
+ty	7
+nm	"Repeat Edge Pixels"
+mn	"ADBE Gaussian Blur 2-0003"
+ix	3
+v	
+a	0
+k	0
+ix	3
+shapes	
+0	
+ty	"gr"
+it	
+0	
+d	1
+ty	"el"
+s	
+a	0
+k	[…]
+ix	2
+p	
+a	0
+k	[…]
+ix	3
+nm	"Ellipse Path 1"
+mn	"ADBE Vector Shape - Ellipse"
+hd	false
+1	
+ty	"st"
+c	
+a	0
+k	[…]
+ix	3
+o	
+a	0
+k	100
+ix	4
+w	
+a	0
+k	5
+ix	5
+lc	2
+lj	2
+bm	0
+d	
+0	{…}
+1	{…}
+nm	"Stroke 1"
+mn	"ADBE Vector Graphic - Stroke"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Ellipse 1"
+np	3
+cix	2
+bm	0
+ix	1
+mn	"ADBE Vector Group"
+hd	false
+1	
+ty	"tm"
+s	
+a	0
+k	78
+ix	1
+e	
+a	0
+k	30
+ix	2
+o	
+a	1
+k	
+0	
+i	{…}
+o	{…}
+t	0
+s	[…]
+1	
+t	132.00000537647
+s	[…]
+ix	3
+m	1
+ix	2
+nm	"Trim Paths 1"
+mn	"ADBE Vector Filter - Trim"
+hd	false
+ip	0
+op	900.000036657751
+st	0
+bm	0
+3	
+ddd	0
+ind	4
+ty	4
+nm	"Shape Layer 2"
+sr	1
+ks	
+o	
+a	0
+k	100
+ix	11
+r	
+a	0
+k	0
+ix	10
+p	
+a	0
+k	
+0	542
+1	543
+2	0
+ix	2
+l	2
+a	
+a	0
+k	
+0	0
+1	0
+2	0
+ix	1
+l	2
+s	
+a	0
+k	
+0	100
+1	100
+2	100
+ix	6
+l	2
+ao	0
+shapes	
+0	
+ty	"gr"
+it	
+0	
+d	1
+ty	"el"
+s	
+a	0
+k	[…]
+ix	2
+p	
+a	0
+k	[…]
+ix	3
+nm	"Ellipse Path 1"
+mn	"ADBE Vector Shape - Ellipse"
+hd	false
+1	
+ty	"st"
+c	
+a	0
+k	[…]
+ix	3
+o	
+a	0
+k	100
+ix	4
+w	
+a	0
+k	5
+ix	5
+lc	2
+lj	2
+bm	0
+d	
+0	{…}
+1	{…}
+nm	"Stroke 1"
+mn	"ADBE Vector Graphic - Stroke"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Ellipse 1"
+np	3
+cix	2
+bm	0
+ix	1
+mn	"ADBE Vector Group"
+hd	false
+1	
+ty	"tm"
+s	
+a	0
+k	78
+ix	1
+e	
+a	0
+k	30
+ix	2
+o	
+a	1
+k	
+0	
+i	{…}
+o	{…}
+t	0
+s	[…]
+1	
+t	132.00000537647
+s	[…]
+ix	3
+m	1
+ix	2
+nm	"Trim Paths 1"
+mn	"ADBE Vector Filter - Trim"
+hd	false
+ip	0
+op	900.000036657751
+st	0
+bm	0
+4	
+ddd	0
+ind	5
+ty	4
+nm	"Shape Layer 3"
+sr	1
+ks	
+o	
+a	0
+k	100
+ix	11
+r	
+a	0
+k	0
+ix	10
+p	
+a	0
+k	
+0	542
+1	776
+2	0
+ix	2
+l	2
+a	
+a	0
+k	
+0	0
+1	233
+2	0
+ix	1
+l	2
+s	
+a	0
+k	
+0	142.736
+1	142.736
+2	100
+ix	6
+l	2
+ao	0
+ef	
+0	
+ty	29
+nm	"Gaussian Blur"
+np	5
+mn	"ADBE Gaussian Blur 2"
+ix	1
+en	1
+ef	
+0	
+ty	0
+nm	"Blurriness"
+mn	"ADBE Gaussian Blur 2-0001"
+ix	1
+v	
+a	0
+k	30
+ix	1
+1	
+ty	7
+nm	"Blur Dimensions"
+mn	"ADBE Gaussian Blur 2-0002"
+ix	2
+v	
+a	0
+k	1
+ix	2
+2	
+ty	7
+nm	"Repeat Edge Pixels"
+mn	"ADBE Gaussian Blur 2-0003"
+ix	3
+v	
+a	0
+k	0
+ix	3
+shapes	
+0	
+ty	"gr"
+it	
+0	
+d	1
+ty	"el"
+s	
+a	0
+k	[…]
+ix	2
+p	
+a	0
+k	[…]
+ix	3
+nm	"Ellipse Path 1"
+mn	"ADBE Vector Shape - Ellipse"
+hd	false
+1	
+ty	"st"
+c	
+a	0
+k	[…]
+ix	3
+o	
+a	0
+k	100
+ix	4
+w	
+a	0
+k	5
+ix	5
+lc	2
+lj	2
+bm	0
+d	
+0	{…}
+1	{…}
+nm	"Stroke 1"
+mn	"ADBE Vector Graphic - Stroke"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Ellipse 1"
+np	3
+cix	2
+bm	0
+ix	1
+mn	"ADBE Vector Group"
+hd	false
+1	
+ty	"tm"
+s	
+a	0
+k	78
+ix	1
+e	
+a	0
+k	30
+ix	2
+o	
+a	1
+k	
+0	
+i	{…}
+o	{…}
+t	0
+s	[…]
+1	
+t	80.0000032584668
+s	[…]
+ix	3
+m	1
+ix	2
+nm	"Trim Paths 1"
+mn	"ADBE Vector Filter - Trim"
+hd	false
+ip	0
+op	900.000036657751
+st	0
+bm	0
+5	
+ddd	0
+ind	6
+ty	4
+nm	"Shape Layer 1"
+sr	1
+ks	
+o	
+a	0
+k	100
+ix	11
+r	
+a	0
+k	0
+ix	10
+p	
+a	0
+k	
+0	542
+1	776
+2	0
+ix	2
+l	2
+a	
+a	0
+k	
+0	0
+1	233
+2	0
+ix	1
+l	2
+s	
+a	0
+k	
+0	142.736
+1	142.736
+2	100
+ix	6
+l	2
+ao	0
+shapes	
+0	
+ty	"gr"
+it	
+0	
+d	1
+ty	"el"
+s	
+a	0
+k	[…]
+ix	2
+p	
+a	0
+k	[…]
+ix	3
+nm	"Ellipse Path 1"
+mn	"ADBE Vector Shape - Ellipse"
+hd	false
+1	
+ty	"st"
+c	
+a	0
+k	[…]
+ix	3
+o	
+a	0
+k	100
+ix	4
+w	
+a	0
+k	5
+ix	5
+lc	2
+lj	2
+bm	0
+d	
+0	{…}
+1	{…}
+nm	"Stroke 1"
+mn	"ADBE Vector Graphic - Stroke"
+hd	false
+2	
+ty	"tr"
+p	
+a	0
+k	[…]
+ix	2
+a	
+a	0
+k	[…]
+ix	1
+s	
+a	0
+k	[…]
+ix	3
+r	
+a	0
+k	0
+ix	6
+o	
+a	0
+k	100
+ix	7
+sk	
+a	0
+k	0
+ix	4
+sa	
+a	0
+k	0
+ix	5
+nm	"Transform"
+nm	"Ellipse 1"
+np	3
+cix	2
+bm	0
+ix	1
+mn	"ADBE Vector Group"
+hd	false
+1	
+ty	"tm"
+s	
+a	0
+k	78
+ix	1
+e	
+a	0
+k	30
+ix	2
+o	
+a	1
+k	
+0	
+i	{…}
+o	{…}
+t	0
+s	[…]
+1	
+t	80.0000032584668
+s	[…]
+ix	3
+m	1
+ix	2
+nm	"Trim Paths 1"
+mn	"ADBE Vector Filter - Trim"
+hd	false
+ip	0
+op	900.000036657751
+st	0
+bm	0
+6	
+ddd	0
+ind	7
+ty	1
+nm	"Dark Gray Solid 1"
+sr	1
+ks	
+o	
+a	0
+k	100
+ix	11
+r	
+a	0
+k	0
+ix	10
+p	
+a	0
+k	
+0	540
+1	540
+2	0
+ix	2
+l	2
+a	
+a	0
+k	
+0	540
+1	540
+2	0
+ix	1
+l	2
+s	
+a	0
+k	
+0	100
+1	100
+2	100
+ix	6
+l	2
+ao	0
+sw	1080
+sh	1080
+sc	"#2d2d2d"
+ip	900.000036657751
+op	900.000036657751
+st	0
+bm	0
+hidden	0
+markers	[]
